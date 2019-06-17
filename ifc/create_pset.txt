@@ -1,0 +1,6 @@
+PropertySet:	<PsetName>	I[nstance]/T[ype]	<Entities comma-separated>
+	<IfcPropertyName>	<DataType>	<RevitParameterName>
+	<IfcPropertyName>	<DataType>	<RevitParameterName>
+	<IfcPropertyName>	<DataType>	<RevitParameterName>
+	
+<DataType>: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequence, Identifier, Illuminance, Integer, Label, Length, Logical, LuminousFlux, LuminousIntensity, NormalisedRation, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRation, Power, Pressure, Ratio, Real, Text, ThremalTransmittance, ThermodynamicsTemperature, Volume, VolumetricFlowRate.

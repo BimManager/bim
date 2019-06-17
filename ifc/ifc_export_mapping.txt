@@ -1,0 +1,8 @@
+<RevitCategory>	<IfcClassName>	<IfcType>
+
+<IfcClassName>: Not Exported
+
+To override the general settings, the IfcExportAs parameter should be utilized.
+[IfcExportAs] (Shared element data schemas)
+[IfcExportType] (IfcClassNameTypeEnum)
+

@@ -1,0 +1,4 @@
+To create IfcZones from a group of rooms in Revit, the following parameters must be added:
+* ZoneName
+* ZoneObjectType
+* ZoneDescription

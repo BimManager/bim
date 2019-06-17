@@ -1,0 +1,3 @@
+<PropertySetName>	<IfcPropertyName>	<RevitPropertyName>
+
+* Only official ifc parameters defined in property sets.
