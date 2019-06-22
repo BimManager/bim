@@ -1,0 +1,80 @@
+﻿<Window x:Class="TektaRevitPlugins.RebarsCollectorWnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Rebar Collector" SizeToContent="Height" Width="300" ResizeMode="NoResize" MouseDoubleClick="Window_MouseDoubleClick">
+    <Window.Resources>
+        <Style x:Key="myButton" TargetType="Button">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Width" Value="60"/>
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+    
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="IsEditable" Value="True"/>
+            <Setter Property="IsEnabled" Value="False"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Properties" BorderBrush="Black" Margin="5">
+            <Grid Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Partiton (Раздел)"/>
+                <ComboBox x:Name="cb_partitions" Grid.Row="0" Grid.Column="1"
+                          SelectionChanged="cb_partitions_SelectionChanged"/>
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Host Mark (Марка Конструкции)" TextWrapping="Wrap"/>
+                <ComboBox x:Name="cb_host_marks" Grid.Row="1" Grid.Column="1"
+                          SelectionChanged="cb_host_marks_SelectionChanged"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Assembly Mark (Марка Сборки)" TextWrapping="Wrap"/>
+                <ComboBox x:Name="cb_assemblies" Grid.Row="2" Grid.Column="1"/>
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Is Scheduled (Спецификация)" TextWrapping="Wrap"/>
+                <CheckBox x:Name="chb_is_scheduled" Grid.Row="3" Grid.Column="1" IsThreeState="True" IsChecked="{x:Null}"  Margin="3"/>
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Is Calculable (Расчет Кол-ва)" TextWrapping="Wrap"/>
+                <CheckBox x:Name="chb_is_calculable" Grid.Row="4" Grid.Column="1" IsThreeState="True" IsChecked="{x:Null}"  Margin="3"/>
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Is an Assembly (Сборка)" TextWrapping="Wrap"/>
+                <CheckBox x:Name="chb_is_assembly" Grid.Row="5" Grid.Column="1" IsThreeState="True" IsChecked="{x:Null}"  Margin="3"/>
+            </Grid>
+        </GroupBox>
+        
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="btn_ok" Style="{StaticResource myButton}" Content="Ok" Click="btn_ok_Click"/>
+            <Button x:Name="btn_cancel" Style="{StaticResource myButton}" Content="Cancel" Click="btn_cancel_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

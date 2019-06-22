@@ -1,0 +1,30 @@
+﻿<Window x:Class="TektaRevitPlugins.DataStorageMgr.WndDataStorageMgr"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TektaRevitPlugins.DataStorageMgr"
+        mc:Ignorable="d"
+        Title="Data Storage Manager" Height="450" Width="800" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="Margin" Value="10"/>
+        </Style>    
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="lb_schemas" Grid.Row="1" Grid.Column="0"/>
+        
+        
+    </Grid>
+</Window>

@@ -1,0 +1,61 @@
+c:\users\kozlovk\source\repos\TektaRevitPlugins\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.dll
+c:\users\kozlovk\source\repos\TektaRevitPlugins\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.pdb
+c:\users\kozlovk\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csprojResolveAssemblyReference.cache
+c:\users\kozlovk\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csproj.CoreCompileInputs.cache
+c:\users\kozlovk\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.dll
+c:\users\kozlovk\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.pdb
+c:\users\kozlovk\source\repos\TektaRevitPlugins\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.addin
+C:\Users\KozlovK\source\repos\TektaRevitPlugins\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.dll.config
+C:\Users\KozlovK\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\TektaRevitPlugins_MarkupCompile.cache
+C:\Users\KozlovK\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\TektaRevitPlugins_MarkupCompile.lref
+C:\Users\KozlovK\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.g.resources
+C:\Users\KozlovK\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\SelectFontWindow.g.cs
+C:\Users\KozlovK\source\repos\TektaRevitPlugins\TektaRevitPlugins\obj\Debug\SelectFontWindow.baml
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csprojResolveAssemblyReference.cache
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins_MarkupCompile.cache
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins_MarkupCompile.lref
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.dll
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.pdb
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.addin
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.dll.config
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.dll
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.pdb
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.g.resources
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csproj.CoreCompileInputs.cache
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Interop.VBIDE.dll
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csproj.ResolveComReference.cache
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\ExportImportExcel.g.cs
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\RoomProperties.g.cs
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\SharedParameterSaveDialog.g.cs
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\SelectFontWindow.g.cs
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\ExportImportExcel.baml
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\RoomProperties.baml
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\SharedParameterSaveDialog.baml
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\Windows\SelectFontWindow.baml
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\RussianDoorWnd.g.cs
+C:\Users\KozlovK\source\repos\TektaRevitPlugins2018\TektaRevitPlugins\obj\Debug\RussianDoorWnd.baml
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.addin
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.dll.config
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.dll
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\bin\Debug\TektaRevitPlugins.pdb
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csprojResolveAssemblyReference.cache
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Interop.VBIDE.dll
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csproj.ResolveComReference.cache
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\RussianDoorWnd.g.cs
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\ExportImportExcel.g.cs
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\PrintWnd.g.cs
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\RoomProperties.g.cs
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\SharedParameterSaveDialog.g.cs
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\SelectFontWindow.g.cs
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins_MarkupCompile.cache
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins_MarkupCompile.lref
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\RussianDoorWnd.baml
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\ExportImportExcel.baml
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\PrintWnd.baml
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\RoomProperties.baml
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\SharedParameterSaveDialog.baml
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\Windows\SelectFontWindow.baml
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.g.resources
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.csproj.CoreCompileInputs.cache
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.dll
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\TektaRevitPlugins.pdb

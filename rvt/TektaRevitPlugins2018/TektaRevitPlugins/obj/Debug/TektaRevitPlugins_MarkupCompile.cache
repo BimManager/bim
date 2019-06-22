@@ -1,0 +1,20 @@
+﻿TektaRevitPlugins
+
+
+library
+C#
+.cs
+C:\Users\Kirill\Documents\Visual Studio 2017\Projects\TektaRevitPlugins2017\TektaRevitPlugins\obj\Debug\
+TektaRevitPlugins
+none
+false
+DEBUG;TRACE
+
+6757349159
+11240529280
+261457728370
+2182189414
+RussianDoorWnd.xaml;Windows\ExportImportExcel.xaml;Windows\PrintWnd.xaml;Windows\RoomProperties.xaml;Windows\SharedParameterSaveDialog.xaml;Windows\SelectFontWindow.xaml;
+
+False
+

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C344E8F-E693-4819-8249-7FEC18531009}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TektaRevitPlugins</RootNamespace>
+    <AssemblyName>TektaRevitPlugins</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RevitAPI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\BlockLevelIdentifierCmd.cs" />
+    <Compile Include="Commands\CpValuesCmd.cs" />
+    <Compile Include="Commands\DoorSwingDetectorCmd.cs" />
+    <Compile Include="Commands\EnumValuesCmd.cs" />
+    <Compile Include="Commands\TagElemsCmd.cs" />
+    <Compile Include="DataStorageMgr\DataStorageMgr.cs" />
+    <Compile Include="DataStorageMgr\WndDataStorageMgr.xaml.cs">
+      <DependentUpon>WndDataStorageMgr.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IRebar.cs" />
+    <Compile Include="Multischedule\AssemblySchedule.cs" />
+    <Compile Include="Multischedule\BarBendingByAssembly.cs" />
+    <Compile Include="Multischedule\BarBendingByStructure.cs" />
+    <Compile Include="Multischedule\CmdConstructMultitableSchedule.cs" />
+    <Compile Include="Multischedule\IMultitableSchedule.cs" />
+    <Compile Include="Multischedule\MultischeduleParameters.cs" />
+    <Compile Include="Multischedule\MultischeduleUtils.cs" />
+    <Compile Include="Multischedule\PartitionDrawingSets.cs" />
+    <Compile Include="Multischedule\RebarQuantityTakeoff.cs" />
+    <Compile Include="Multischedule\ScheduleOfWork.cs" />
+    <Compile Include="Multischedule\StructureSchedule .cs" />
+    <Compile Include="Multischedule\MultischeduleManipulator.cs" />
+    <Compile Include="Multischedule\MultitableScheduleFactory.cs" />
+    <Compile Include="Multischedule\Subschedule.cs" />
+    <Compile Include="SharedParametersMgr\SharedParametersManager.cs" />
+    <Compile Include="TmpUndNumberHandlerCmd.cs" />
+    <Compile Include="UnderDevelopment\Apartment.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="Helpers\ClassAvailabilities.cs" />
+    <Compile Include="Commands\CalculateFlatAreaCmd.cs" />
+    <Compile Include="Commands\MarkHeightsCmd.cs" />
+    <Compile Include="RebarsCollector\RebarCollectorCmd.cs" />
+    <Compile Include="RebarsRepository\RebarRepositoryCmd.cs" />
+    <Compile Include="Commands\RoomAreasHandlerCmd.cs" />
+    <Compile Include="UnderDevelopment\RailingElemsCounter.cs" />
+    <Compile Include="Utils\ExtensibleStorageUtils.cs" />
+    <Compile Include="UnderDevelopment\CustomSchedule.cs" />
+    <Compile Include="Extensions\MyExceptions.cs" />
+    <Compile Include="UnderDevelopment\ScheduleGenerator.cs" />
+    <Compile Include="UnderDevelopment\MaterialTag.cs" />
+    <Compile Include="Extensions\MyExtensionMethods.cs" />
+    <Compile Include="UnderDevelopment\CreateScheduleCmd.cs" />
+    <Compile Include="Windows\CpValuesWnd.xaml.cs">
+      <DependentUpon>CpValuesWnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SharedParametersMgr\CreateSharedParamWin.xaml.cs">
+      <DependentUpon>CreateSharedParamWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Updaters\OpeningUpdater.cs" />
+    <Compile Include="Utils\RebarsUtils.cs" />
+    <Compile Include="Commands\SheetSelectorCmd.cs" />
+    <Compile Include="Commands\FontReplacerCmd.cs" />
+    <Compile Include="RebarsMarker\RebarMarkerCmd.cs" />
+    <Compile Include="Commands\ExcelExporterCmd.cs" />
+    <Compile Include="Commands\CreateSharedParamCmd.cs" />
+    <Compile Include="UnderDevelopment\WallJoinerCmd.cs" />
+    <Compile Include="Windows\EnumValuesWnd.xaml.cs">
+      <DependentUpon>EnumValuesWnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RebarsMarker\RebarsMarkerWnd.xaml.cs">
+      <DependentUpon>RebarsMarkerWnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RebarsCollector\RebarsCollectorWnd.xaml.cs">
+      <DependentUpon>RebarsCollectorWnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UnderDevelopment\RussianDoorsCmd.cs" />
+    <Compile Include="UnderDevelopment\RussianDoorWnd.xaml.cs">
+      <DependentUpon>RussianDoorWnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Timing.cs" />
+    <Compile Include="Utils\ExcelUtils.cs" />
+    <Compile Include="Commands\RoomNamerCmd.cs" />
+    <Compile Include="Windows\ExportImportExcel.xaml.cs">
+      <DependentUpon>ExportImportExcel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\PrintWnd.xaml.cs">
+      <DependentUpon>PrintWnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\RoomProperties.xaml.cs">
+      <DependentUpon>RoomProperties.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Updaters\RoomUpdater.cs" />
+    <Compile Include="Utils\RvtGeometryUtils.cs" />
+    <Compile Include="UnderDevelopment\RoomAreaCalCmd.cs" />
+    <Compile Include="Multischedule\WndMultitableSchedule.xaml.cs">
+      <DependentUpon>WndMultitableSchedule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SharedParameterSaveDialog.xaml.cs">
+      <DependentUpon>SharedParameterSaveDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\SpHandlerCmd.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Commands\SplitterCmd.cs" />
+    <Compile Include="Utils\SplittingVerticalElementsUtils.cs" />
+    <Compile Include="Helpers\ElementsSelectionFilters.cs" />
+    <Compile Include="Windows\SelectFontWindow.xaml.cs">
+      <DependentUpon>SelectFontWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UnderDevelopment\ElementJoinerCmd.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\replacer_16x16.png" />
+    <EmbeddedResource Include="Resources\replacer_32x32.png" />
+    <EmbeddedResource Include="Resources\export_16x16.png" />
+    <EmbeddedResource Include="Resources\export_32x32.png" />
+    <EmbeddedResource Include="Resources\excel_16x16.png" />
+    <EmbeddedResource Include="Resources\excel_32x32.png" />
+    <EmbeddedResource Include="Resources\reroom_16x16.png" />
+    <EmbeddedResource Include="Resources\reroom_32x32.png" />
+    <EmbeddedResource Include="Resources\pdf_16x16.png" />
+    <EmbeddedResource Include="Resources\pdf_32x32.png" />
+    <EmbeddedResource Include="Resources\rebar_16x16.png" />
+    <EmbeddedResource Include="Resources\rebar_32x32.png" />
+    <EmbeddedResource Include="Resources\tag_16x16.png" />
+    <EmbeddedResource Include="Resources\tag_32x32.png" />
+    <EmbeddedResource Include="Resources\height_16x16.png" />
+    <EmbeddedResource Include="Resources\height_32x32.png" />
+    <EmbeddedResource Include="Resources\schedule_16x16.png" />
+    <EmbeddedResource Include="Resources\schedule_32x32.png" />
+    <EmbeddedResource Include="Resources\sync_16x16.png" />
+    <EmbeddedResource Include="Resources\sync_32x32.png" />
+    <EmbeddedResource Include="Resources\calculator_16x16.png" />
+    <EmbeddedResource Include="Resources\calculator_32x32.png" />
+    <EmbeddedResource Include="Resources\door_swing_16x16.png" />
+    <EmbeddedResource Include="Resources\door_swing_32x32.png" />
+    <EmbeddedResource Include="Resources\copy_16x16.png" />
+    <EmbeddedResource Include="Resources\copy_32x32.png" />
+    <EmbeddedResource Include="Resources\numbers_16x16.png" />
+    <EmbeddedResource Include="Resources\numbers_32x32.png" />
+    <Content Include="TektaRevitPlugins.addin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\axe_16x16.png" />
+    <EmbeddedResource Include="Resources\axe_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DataStorageMgr\WndDataStorageMgr.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CpValuesWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SharedParametersMgr\CreateSharedParamWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EnumValuesWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RebarsMarker\RebarsMarkerWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RebarsCollector\RebarsCollectorWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UnderDevelopment\RussianDoorWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ExportImportExcel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\PrintWnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\RoomProperties.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Multischedule\WndMultitableSchedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\SharedParameterSaveDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\SelectFontWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>rem copy "$(TargetPath)" "\\tfileserv\userdata$\profiles\KozlovK\Application Data\Autodesk\Revit\Addins\2018"
+
+rem "c:\program files\autodesk\revit 2018\revit.exe"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿TektaRevitPlugins
+
+
+library
+C#
+.cs
+Z:\Департамент проектирования\private\АРХИТЕКТУРНЫЙ ОТДЕЛ\Козлов Кирилл\BIM\Development\TektaRevitPlugins2018\TektaRevitPlugins\obj\x64\Debug\
+TektaRevitPlugins
+none
+false
+DEBUG;TRACE
+
+131297116743
+11240529280
+77567943641
+21-355456648
+DataStorageMgr\WndDataStorageMgr.xaml;Windows\CpValuesWnd.xaml;SharedParametersMgr\CreateSharedParamWin.xaml;Windows\EnumValuesWnd.xaml;RebarsMarker\RebarsMarkerWnd.xaml;RebarsCollector\RebarsCollectorWnd.xaml;UnderDevelopment\RussianDoorWnd.xaml;Windows\ExportImportExcel.xaml;Windows\PrintWnd.xaml;Windows\RoomProperties.xaml;Multischedule\WndMultitableSchedule.xaml;Windows\SharedParameterSaveDialog.xaml;Windows\SelectFontWindow.xaml;
+
+True
+
