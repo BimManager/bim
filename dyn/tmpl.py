@@ -12,7 +12,7 @@ from Autodesk.Revit.DB import Line as NewName
 # Import the DocumentManager and TransactionManager
 clr.AddReference("RevitServices")
 from RevitServices.Persistence import DocumentManager
-from RevitServices.Transactions import TransactionManager
+# from RevitServices.Transactions import TransactionManager
 
 # Import ProtoGeometry
 clr.AddReference("ProtoGeometry")
@@ -25,8 +25,11 @@ clr.ImportExtensions(Revit.Elements)
 # Import ToProtoType, ToRevitType extension methods
 clr.ImportExtensions(Revit.GeometryConversion) 
 
-# Get access to the current document.
-doc = DocumentManager.Instance.CurrentDBDocument
+# Get access to the current document and application
+uiapp = DocumentManager.Instance.CurrentUIApplication;
+app = uiapp.Application;
+uidoc = DocumentManager.Instance.CurrentUIDocument;
+doc = DocumentManager.Instance.CurrentDBDocument;
 
 # Handler the inputs (Unwrap)
 if isinstance(IN[0], list):
@@ -41,10 +44,13 @@ else:
 # revitGeometry = dynamoGeometry.ToRevitType()
 
 # Begin a transaction
-TransactionManager.Instance.EnsureInTransaction(doc)
+# TransactionManager.Instance.EnsureInTransaction(doc)
+tr = Transaction(doc);
+tr.Start("Start Transaction");
 
 # End the transaction
-TransactionManager.Instance.TransactionTaskDone()
+# TransactionManager.Instance.TransactionTaskDone()
+tr.Commit();
 
 # Deal with the output (Wrap)
 OUT = out.ToDSType(False)
