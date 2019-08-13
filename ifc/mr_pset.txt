@@ -1,0 +1,5 @@
+PropertySet:	MR Group	I	IfcWall, IfcRoof
+	Volume	Volume	Volume
+	Area	Area	Area
+	Length	Length	Length
+	Classification	Text	Assembly Code
