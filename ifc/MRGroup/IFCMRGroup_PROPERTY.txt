@@ -1,0 +1,62 @@
+﻿#
+# User Defined PropertySet Definition File (IBIMv2)
+#
+# Format:
+#    PropertySet:	<Pset Name>	I[nstance]/T[ype]	<element list separated by ','>
+#	<Property Name 1>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	<Property Name 2>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	...
+#
+# Data types supported: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, 
+#	ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequency, Identifier, 
+#	Illuminance, Integer, Label, Length, Logical, LuminousFlux, LuminousIntensity, 
+#	NormalisedRatio, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRatio, Power, 
+#	Pressure, Ratio, Real, Text, ThermalTransmittance, ThermodynamicTemperature, Volume, 
+#	VolumetricFlowRate
+#
+
+PropertySet:	IFCMRGroup	I	IfcElement	
+	Код по классификатору	Identifier	Код по классификатору
+	Описание	Text	Описание
+	Тип элемента	Text	Тип
+	Этаж	Integer	Этаж
+	Уровень	Text	Уровень
+	Уровень	Text	Уровень спецификации
+	Уровень	Text	Базовая зависимость
+	Уровень	Text	Базовый уровень
+	Функция	Text	Функция
+	Несущий	Text	Несущие конструкции
+	Материал	Text	Материал несущих конструкций
+	Материал	Text	Материал
+	Участок	Text	ADSK_Volume
+	Длина	Length	Длина
+	Ширина	Length	Ширина
+	Площадь	Area	Площадь
+	Объем	Volume	Объем
+	Объем	Volume	Объем арматуры
+	Высота	Length	Высота
+	Толщина	Length	Толщина
+	Диаметр	Length	Диаметр
+	Имя системы	Text	Имя системы
+	Классификация систем	Text	Классификация систем
+	Категория	Text	Категория
+	Категория	Text	Исходная категория
+	Сокращение для системы Text	Сокращение для системы
+	Расход	VolumetricFlowRate	Расход
+	Скорость	Ratio	Скорость
+	Статус	Text	ADSK_RevisionStatus
+	Подземный	Boolean	Подземный	
+#
+PropertySet:	IFCMRGroup	I	IfcSpace
+	Код по классификатору	Identifier	ADSK_Classification
+	Расход приток	VolumetricFlowRate	Заданный расход приточного воздуха
+	Этаж	Integer	Этаж
+	Участок	Text	ADSK_Volume
+	Периметр	Length	Периметр
+	Площадь	Area	Площадь
+	Имя	Text	Имя
+	Номер квартиры	Integer	ADSK_RoomNumber
+	Тип помещения	Text	АDSK_RoomType
+	Уровень	Text	Уровень
+	Подземный	Boolean	Подземный  
+#
