@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>RFUIRibbonSelector</Name>
+    <Assembly>RevitFilters.dll</Assembly>
+    <AddInId>9A03A163-8F6C-40D4-AD9F-E552437877AF</AddInId>
+    <FullClassName>RevitFilters.UIRibbonSelector</FullClassName>
+    <VendorId>RevitFilters</VendorId>
+    <VendorDescription>Разработчик: RevitBIM.ru@gmail.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Ingrad Ribbon Loader</Name>
+    <Assembly>Ingrad.dll</Assembly>
+    <FullClassName>Ingrad.LoadRibbon</FullClassName>
+    <ClientId>07c53a80-d1bf-4422-92ff-bd778a03842a</ClientId>
+    <VendorId>INGRAD</VendorId>
+    <VendorDescription>Dmitry Samusenkov, https://samusenkov.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+

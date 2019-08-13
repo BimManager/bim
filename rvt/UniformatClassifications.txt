@@ -1,0 +1,795 @@
+A	Substructure	1	
+A10	Foundations	2	
+A1010	Standard Foundations	3	
+A1010100	Footings & Pile Caps	4	-2001300
+A1010110	Strip Footings	5	-2001300
+A1010120	Spread Footings	5	-2001300
+A1010130	Pile Caps	5	-2001300
+A1010200	Foundation Walls	4	-2000011
+A1010210	Foundation Walls - CIP	5	-2000011
+A1010220	Foundation Walls - CMU	5	-2000011
+A1010230	Foundation Walls - Wood	5	-2000011
+A1010300	Perimeter Drainage	4	-2001160
+A1010310	Footing Drains	5	-2001160
+A1010400	Perimeter Insulation	4	-2000011
+A1010410	Perimeter Insulation - Rigid	5	-2000011
+A1020	Special Foundations	3	
+A1020100	Pile Foundations	4	-2001300
+A1020110	Piles - CIP	5	-2001300
+A1020120	Piles - Precast Concrete	5	-2001300
+A1020130	Piles - Steel Pipe	5	-2001300
+A1020140	Piles - Steel H	5	-2001300
+A1020150	Piles - Step Tapered	5	-2001300
+A1020160	Piles - Treated Wood	5	-2001300
+A1020200	Grade Beams 	4	-2001300
+A1020210	Grade Beams - CIP	5	-2001300
+A1020300	Caissons 	4	-2001300
+A1020310	Caissons - Bell	5	-2001300
+A1020400	Underpinning	4	-2001300
+A1020500	Dewatering	4	-2001260
+A1020600	Raft Foundations	4	-2001300
+A1020700	Pressure Injected Grouting	4	-2001300
+A1020710	Pressure Injected Footings	5	-2001300
+A1020900	Other Special Foundation Conditions	4	-2001300
+A1030	Slab on Grade	3	
+A1030100	Standard Slab on Grade	4	-2000032
+A1030110	SOG - Reinforced	5	-2000032
+A1030120	SOG - Unreinforced	5	-2000032
+A1030200	Structural Slab on Grade	4	-2000032
+A1030300	Inclined Slab on Grade	4	-2000032
+A1030400	Trenches	4	-2001300
+A1030500	Pits & Bases	4	-2001300
+A1030600	Under-Slab Drainage	4	-2001160
+A1030700	Under-Slab Insulation	4	-2000032
+A1030710	Subdrainage Piping	5	-2001160
+A20	Basement Construction	2	
+A2010	Basement Excavation	3	
+A2010100	Excavation for Basements	4	-2001300
+A2010110	Basement Excavation & Backfill	5	-2001300
+A2010200	Structural Backfill & Compaction	4	-2001300
+A2010300	Shoring	4	-2001300
+A2010310	Shoring	5	-2001300
+A2020	Basement Walls	3	
+A2020100	Basement Wall Construction	4	-2000011
+A2020110	Basement Walls - CIP	5	-2000011
+A2020120	Basement Walls - CMU	5	-2000011
+A2020130	Basement Walls - Wood	5	-2000011
+A2020200	Moisture Protection	4	-2000011
+A2020210	Foundation Dampproofing	5	-2000011
+A2020300	Basement Wall Insulation	4	-2000011
+A2020310	Basement Wall Insulation - Rigid	5	-2000011
+A2020400	Interior Skin	4	-2000011
+B	Shell	1	
+B10	Superstructure	2	
+B1010	Floor Construction	3	
+B1010100	Suspended Basement Floor Construction	4	-2000032
+B1010200	Upper Floor Framing - Vertical Elements	4	-2001330
+B1010210	Bearing Walls - CIP	5	-2000011
+B1010215	Bearing Walls - Block	5	-2000011
+B1010220	Bearing Walls - Drywall w/Studs	5	-2000011
+B1010225	Bearing Walls - Plaster w/Studs	5	-2000011
+B1010240	Columns - CIP	5	-2001330
+B1010245	Columns - Precast	5	-2001330
+B1010250	Columns - Steel	5	-2001330
+B1010255	Columns - Wood	5	-2001330
+B1010300	Upper Floor Framing - Horizontal Elements	4	-2001320
+B1010310	Beams - CIP	5	-2001320
+B1010320	Beams - Precast	5	-2001320
+B1010325	Beams - Precast Double T	5	-2001320
+B1010330	Beams - Steel	5	-2001320
+B1010340	Beams - Wood (Dimensional Lumber)	5	-2001320
+B1010345	Beams - Wood (Laminated)	5	-2001320
+B1010350	Joists - Steel	5	-2001320
+B1010355	Joists - Wood (Dimensional Lumber)	5	-2001320
+B1010358	Joists - Wood (Manufactured)	5	-2001320
+B1010370	Deck - Metal	5	-2000032
+B1010375	Deck - Wood	5	-2000032
+B1010380	Planks - Precast	5	-2000032
+B1010400	Upper Floor Framing - Systems	4	-2001320
+B1010410	CIP Slabs - One Way	5	-2000032
+B1010412	CIP Slabs - Flat Plate	5	-2000032
+B1010414	CIP Slabs - Flat Plate w/Drop Panels	5	-2000032
+B1010416	CIP Slabs - Multispan Joist 	5	-2000032
+B1010418	CIP Slabs - Waffle	5	-2000032
+B1010420	CIP Beam & Slab - One Way	5	-2001320
+B1010422	CIP Beam & Slab - Two Way	5	-2001320
+B1010430	Composite Beam & Slab	5	-2001320
+B1010432	"Composite Beam, Deck & Slab"	5	-2001320
+B1010434	W Shape Composite Deck & Slab	5	-2001320
+B1010440	Precast Beams w/ Precast Planks	5	-2001320
+B1010442	Precast Beams w/Precast Double T	5	-2001320
+B1010460	Steel Girders w/ Steel Beams	5	-2001320
+B1010462	Steel Beams w/ Steel Joists	5	-2001320
+B1010464	Joist Girders w/ Steel Joists	5	-2001320
+B1010470	Steel Light Gauge Floor System	5	-2001320
+B1010480	Wood Beams w/ Wood Joists	5	-2001320
+B1010482	Wood Laminated Beams w/ Wood Joists	5	-2001320
+B1010500	Balcony Floor Construction	4	-2000032
+B1010600	Ramps	4	-2000180
+B1010700	Exterior Stairs & Fire Escapes	4	-2000120
+B1010800	Floor Raceway Systems	4	-2000032
+B1010900	Fireproofing - Floor Construction	4	-2000032
+B1010910	Steel Beam Fireproofing	5	-2001320
+B1010920	Steel Column Fireproofing	5	-2001320
+B1020	Roof Construction	3	
+B1020100	Flat Roof Framing - Vertical Elements	4	-2000011
+B1020110	Bearing Walls - CIP	5	-2000011
+B1020115	Bearing Walls - Block	5	-2000011
+B1020120	Bearing Walls - Drywall w/Studs	5	-2000011
+B1020125	Bearing Walls - Plaster w/Studs	5	-2000011
+B1020140	Columns - CIP	5	-2001330
+B1020145	Columns - Precast	5	-2001330
+B1020150	Columns - Steel	5	-2001330
+B1020155	Columns - Wood	5	-2001330
+B1020200	Flat Roof Framing - Horizontal Elements	4	-2001320
+B1020210	Beams - CIP	5	-2001320
+B1020220	Beams - Precast	5	-2001320
+B1020225	Beams - Precast Double T	5	-2001320
+B1020230	Beams - Steel	5	-2001320
+B1020240	Beams - Wood (Dimensional Lumber)	5	-2001320
+B1020245	Beams - Wood (Laminated)	5	-2001320
+B1020250	Joists - Steel	5	-2001320
+B1020255	Joists - Wood (Dimensional Lumber)	5	-2001320
+B1020258	Joists - Wood (Manufactured)	5	-2001320
+B1020260	Deck - Metal	5	-2000035
+B1020265	Deck - Wood	5	-2000035
+B1020270	Planks - Precast	5	-2000035
+B1020300	Flat Roof Framing - Systems	4	-2000035
+B1020310	CIP Slabs - One Way	5	-2000035
+B1020312	CIP Slabs - Flat Plate	5	-2000035
+B1020314	CIP Slabs - Flat Plate w/Drop Panels	5	-2000035
+B1020316	CIP Slabs - Multispan Joist 	5	-2000035
+B1020318	CIP Slabs - Waffle	5	-2000035
+B1020320	CIP Beam & Slab - One Way	5	-2001320
+B1020322	CIP Beam & Slab - Two Way	5	-2001320
+B1020330	Composite Beam & Slab	5	-2001320
+B1020332	"Composite Beam, Deck & Slab"	5	-2001320
+B1020334	W Shape Composite Deck & Slab	5	-2001320
+B1020340	Precast Beams w/ Precast Planks	5	-2001320
+B1020342	Precast Beams w/Precast Double T	5	-2001320
+B1020360	Steel Girders w/ Steel Beams	5	-2001320
+B1020362	Steel Beams w/ Steel Joists	5	-2001320
+B1020364	Joist Girders w/ Steel Joists	5	-2001320
+B1020370	Steel Light Gauge Floor System	5	-2001320
+B1020380	Wood Beams w/ Wood Joists	5	-2001320
+B1020382	Wood Laminated Beams w/ Wood Joists	5	-2001320
+B1020400	Pitched Roof Construction	4	-2000035
+B1020500	Vaulted Roof Construction	4	-2000035
+B1020600	Dome Construction	4	-2000035
+B1020700	Fabric (Tensile) Roof Construction	4	-2000035
+B1020800	Canopies	4	-2000035
+B1020900	Fireproofing - Roof Construction	4	-2000035
+B1020910	Steel Beam Fireproofing	5	-2000035
+B1020920	Steel Column Fireproofing	5	-2000035
+B20	Exterior Enclosure	2	
+B2010	Exterior Walls	3	
+B2010100	Exterior Wall Construction	4	-2000011
+B2010110	Ext. Wall - CIP	5	-2000011
+B2010120	Ext. Wall - Precast	5	-2000011
+B2010125	Ext. Wall - Precast Lintels & Specialties	5	-2000011
+B2010130	Ext. Wall - Tilt-up	5	-2000011
+B2010140	Ext. Wall - CMU	5	-2000011
+B2010142	Ext. Wall - CMU Cavity	5	-2000011
+B2010144	Ext. Wall - CMU Composite	5	-2000011
+B2010146	Ext. Wall - CMU Lintels & Specialties	5	-2000011
+B2010148	Ext. Wall - Glass Block	5	-2000011
+B2010150	Ext. Wall - Brick (Single Wythe)	5	-2000011
+B2010152	Ext. Wall - Brick (Double Wythe)	5	-2000011
+B2010154	Ext. Wall - Brick Cavity	5	-2000011
+B2010156	Ext. Wall - Brick Composite	5	-2000011
+B2010158	Ext. Wall - Brick Veneer w/ Stud	5	-2000011
+B2010160	Ext. Wall - Stone Veneer w/ Stud	5	-2000011
+B2010170	Ext. Wall - Metal Siding Supports	5	-2000011
+B2010175	Ext. Wall - Metal Siding Panels	5	-2000011
+B2010180	Ext. Wall - Wood Stud w/ Siding & Shingles	5	-2000011
+B2010185	Ext. Wall - Wood Stud w/ Stucco	5	-2000011
+B2010200	Parapets	4	-2000011
+B2010300	"Exterior Louvers, Screens & Fencing"	4	-2000014
+B2010400	Exterior Sun Control Devices	4	-2001140
+B2010500	Balcony Walls & Handrails	4	-2000126
+B2010600	Exterior Soffits	4	-2000035
+B2020	Exterior Windows	3	
+B2020100	Windows	4	-2000014
+B2020110	Windows - Aluminum	5	-2000014
+B2020120	Windows - Steel	5	-2000014
+B2020130	Windows - Wood	5	-2000014
+B2020200	Curtain Walls	4	-2000011
+B2020210	Curtain Walls - Framing	5	-2000171
+B2020220	Curtain Walls - Panels	5	-2000170
+B2020300	Storefronts	4	-2000170
+B2020400	Screened Openings	4	-2000014
+B2030	Exterior Doors	3	
+B2030100	Glazed Doors & Entrances	4	-2000023
+B2030110	Exterior Glazed Doors - Aluminum	5	-2000023
+B2030120	Exterior Glazed Doors - Steel	5	-2000023
+B2030130	Exterior Glazed Doors - Wood	5	-2000023
+B2030200	Solid Exterior Doors	4	-2000023
+B2030210	Exterior Solid Doors - Aluminum	5	-2000023
+B2030220	Exterior Solid Doors - Steel	5	-2000023
+B2030230	Exterior Solid Doors - Wood	5	-2000023
+B2030300	Revolving Doors	4	-2000023
+B2030400	Overhead Doors & Roll-up Grilles	4	-2000023
+B2030410	Overhead Doors	5	-2000023
+B2030420	Roll-up Grilles	5	-2000023
+B2030500	Door Wall Opening Elements	4	-2000023
+B2030900	Other Exterior Doors	4	-2000023
+B30	Roofing	2	
+B3010	Roof Coverings	3	
+B3010100	Roof Finishes	4	-2000035
+B3010110	Roofing - Built-up	5	-2000035
+B3010120	Roofing - Single Ply Membrane	5	-2000035
+B3010130	Roofing - Preformed Metal	5	-2000035
+B3010140	Roofing - Formed Metal	5	-2000035
+B3010150	Roofing - Shingle & Tile	5	-2000035
+B3010200	Traffic Toppings & Paving Membranes	4	-2000035
+B3010300	Roof Insulation & Fill	4	-2000035
+B3010310	Roof Insulation - Rigid	5	-2000035
+B3010400	Roof Flashing & Trim	4	-2000035
+B3010410	Base Flashing	5	-2000035
+B3010420	Roof Edges	5	-2000035
+B3010430	Roof Flashing	5	-2000035
+B3010500	Roof Eaves & Soffits	4	-2000035
+B3010600	Gutters & Downspouts	4	-2000035
+B3010610	Gutters	5	-2000035
+B3010620	Downspouts	5	-2000035
+B3020	Roof Openings	3	
+B3020100	Glazed Roof Openings	4	-2000014
+B3020110	Skylights	5	-2000014
+B3020200	Roof Hatches	4	-2000014
+B3020210	Roof Hatches	5	-2000014
+B3020220	Smoke Vents	5	-2000014
+B3020230	Roof Accessories	5	-2000014
+B3020300	Gravity Roof Ventilators	4	-2001140
+C	Interiors	1	
+C10	Interior Construction	2	
+C1010	Partitions	3	
+C1010100	Fixed Partitions	4	-2000011
+C1010110	"Partitions - Brick, Solid"	5	-2000011
+C1010115	Partitions - Brick Veneer w/ Stud	5	-2000011
+C1010118	Partitions - Stone Veneer w/ Stud	5	-2000011
+C1010120	Partitions - CMU	5	-2000011
+C1010130	Partitions - Glass Block	5	-2000011
+C1010135	Partitions - Tile	5	-2000011
+C1010140	Partitions - Drywall w/ Wood Stud	5	-2000011
+C1010145	Partitions - Drywall w/ Metal Stud	5	-2000011
+C1010150	Partitions - Plaster w/ Wood Stud	5	-2000011
+C1010155	Partitions - Plaster w/ Metal Stud	5	-2000011
+C1010180	Partition Components - Wood Framing	5	-2000011
+C1010185	Partition Components - Metal Framing	5	-2000011
+C1010190	Partition Components - Drywall	5	-2000011
+C1010195	Partition Components - Plaster	5	-2000011
+C1010200	Demountable Partitions	4	-2000011
+C1010210	"Partitions- Demountable, Drywall"	5	-2000011
+C1010300	Retractable Partitions	4	-2000011
+C1010310	Partitions - Folding	5	-2000011
+C1010400	Site Built Toilet Partitions	4	-2001350
+C1010500	Site Built Compartments & Cubicles	4	-2001350
+C1010600	Interior Balustrades & Screens	4	-2000126
+C1010700	Interior Windows & Storefronts	4	-2000014
+C1010710	Interior Glazed Openings	5	-2000014
+C1020	Interior Doors	3	
+C1020100	Interior Doors	4	-2000023
+C1020110	Interior Doors - Metal	5	-2000023
+C1020120	Interior Doors - Wood	5	-2000023
+C1020200	Interior Door Frames	4	-2000023
+C1020210	Interior Door Frames - Metal	5	-2000023
+C1020220	Interior Door Frames - Wood	5	-2000023
+C1020300	Interior Doors with Frames	4	-2000023
+C1020310	Interior Metal Doors with Metal Frames	5	-2000023
+C1020320	Interior Wood Doors with Metal Frames	5	-2000023
+C1020330	Interior Wood Doors with Wood Frames	5	-2000023
+C1020400	Interior Door Hardware	4	-2000023
+C1020410	Door Hardware	5	-2000023
+C1020500	Interior Door Wall Opening Elements	4	-2000023
+C1020600	Interior Door Sidelights & Transoms	4	-2000023
+C1020700	Interior Hatches & Access Doors	4	-2000023
+C1030	Fittings	3	
+C1030100	Fabricated Compartments & Cubicles	4	-2001350
+C1030110	Toilet Partitions	5	-2001160
+C1030120	Telephone Enclosures	5	-2001350
+C1030200	Bath & Toilet Accessories	4	-2001350
+C1030210	Bath & Toilet Accessories - Commercial	5	-2001160
+C1030220	Bath & Toilet Accessories - Residential	5	-2001160
+C1030230	Hospital Curtains	5	-2001350
+C1030300	Storage Specialties	4	-2001350
+C1030310	Lockers	5	-2001350
+C1030320	Shelving	5	-2001350
+C1030330	Parts Bins	5	-2001350
+C1030400	Fabricated Cabinets & Counters	4	-2001000
+C1030410	Cabinets	5	-2001000
+C1030500	Identifying/Visual Aid Specialties	4	-2001350
+C1030510	Signs	5	-2001350
+C1030520	Building Directory Boards	5	-2001350
+C1030530	Bulletin Boards	5	-2001350
+C1030540	Chalkboards & Whiteboards	5	-2001350
+C1030600	Internal Traffic Protection Aids	4	-2001350
+C1030610	Turnstiles	5	-2001350
+C1030700	Integrated Appurtenances	4	-2001350
+C1030900	Other Fittings	4	-2001350
+C1030910	Mailboxes	5	-2001350
+C20	Stairs	2	
+C2010	Stair Construction	3	
+C2010100	Regular Stairs	4	-2000120
+C2010110	Stairs - CIP	5	-2000120
+C2010120	Stairs - Precast	5	-2000120
+C2010130	Stairs - Steel	5	-2000120
+C2010140	Stairs - Wood	5	-2000120
+C2010200	Curved Stairs	4	-2000120
+C2010300	Spiral Stairs	4	-2000120
+C2010310	Spiral Stairs - Metal	5	-2000120
+C2010320	Spiral Stairs - Wood	5	-2000120
+C2010400	Stair Handrails/Balustrades	4	-2000126
+C2020	Stair Finishes	3	
+C2020100	"Stair, Tread & Landing Finishes"	4	-2000120
+C2020200	Stair Soffit Finishes	4	-2000120
+C2020300	Stair Handrail & Balustrade Finishes	4	-2000126
+C30	Interior Finishes	2	
+C3010	Wall Finishes	3	
+C3010100	Wall Finishes	4	-2000011
+C3010110	Wall Finishes - Paint	5	-2000011
+C3010120	Wall Finishes - Coatings	5	-2000011
+C3010130	Wall Finishes - Coverings	5	-2000011
+C3010140	Wall Finishes - Paneling	5	-2000011
+C3010150	Wall Finishes - Tile	5	-2000011
+C3010300	Column Finishes	4	-2000100
+C3020	Floor Finishes	3	
+C3020100	Floor Toppings & Coatings	4	-2000032
+C3020110	Concrete Toppings	5	-2000032
+C3020120	Acrylic Coatings	5	-2000032
+C3020130	Epoxy Coatings	5	-2000032
+C3020200	Traffic Membranes	4	-2000032
+C3020300	Hardeners & Sealers	4	-2000032
+C3020400	Flooring	4	-2000032
+C3020410	Flooring - Sheet Goods	5	-2000032
+C3020420	Flooring - Terrazzo	5	-2000032
+C3020430	Flooring - Tile	5	-2000032
+C3020440	Flooring - VCT	5	-2000032
+C3020450	Flooring - Wood	5	-2000032
+C3020490	Flooring - Other	5	-2000032
+C3020500	Carpeting	4	-2000032
+C3020510	Carpet	5	-2000032
+C3020520	Carpet Tile	5	-2000032
+C3020600	"Bases, Curbs & Trim"	4	-2000032
+C3020610	Base - Vinyl & Rubber	5	-2000032
+C3020620	Base - Wood	5	-2000032
+C3020700	Access Pedestal Flooring	4	-2000032
+C3020800	Subflooring & Underlayment	4	-2000032
+C3020810	Subflooring & Underlayment - Wood	5	-2000032
+C3030	Ceiling Finishes	3	
+C3030100	Applied Ceiling Finishes	4	-2000038
+C3030110	Ceiling Finishes - Paint	5	-2000038
+C3030120	Ceiling Finishes - Coatings	5	-2000038
+C3030130	Ceiling Finishes - Coverings	5	-2000038
+C3030140	Ceiling Finishes - Paneling	5	-2000038
+C3030150	Ceiling Finishes - Tile	5	-2000038
+C3030200	Suspended Ceilings	4	-2000038
+C3030210	Suspended Ceilings - Acoustical	5	-2000038
+C3030220	Suspended Ceilings - Gypsum Board	5	-2000038
+C3030230	Suspended Ceilings - Plaster	5	-2000038
+C3030300	Drywall & Plaster Ceiling Components	4	-2000038
+C3030310	Ceiling Components - Drywall	5	-2000038
+C3030320	Ceiling components - Plaster	5	-2000038
+C3030900	Other Ceiling Finishes	4	-2000038
+D	Services	1	
+D10	Conveying	2	
+D1010	Elevators and Lifts	3	
+D1010100	Passenger Elevators	4	-2001350
+D1010110	Elevators - Hydraulic	5	-2001350
+D1010130	Elevators - Oil Hydraulic	5	-2001350
+D1010140	Elevators - Traction Geared	5	-2001350
+D1010150	Elevators - Traction Gearless	5	-2001350
+D1010200	Freight Elevators	4	-2001350
+D1010210	Elevators - Freight	5	-2001350
+D1010300	Lifts	4	-2001350
+D1010310	Lifts - Passenger	5	-2001350
+D1020	Escalators and Moving Walks	3	-2001350
+D1020100	Escalators	4	-2001350
+D1020110	Escalators	5	-2001350
+D1020200	Moving Walks	4	-2001350
+D1020210	Moving Walks	5	-2001350
+D1090	Other Conveying Systems	3	-2001350
+D1090100	Dumbwaiters	4	-2001350
+D1090200	Pneumatic Tube Systems	4	-2001350
+D1090300	Hoists & Cranes	4	-2001350
+D1090400	Conveyors	4	-2001350
+D1090410	Conveyors - Horizontal & Inclined	5	-2001350
+D1090420	Conveyors - Vertical	5	-2001350
+D1090500	Chutes	4	-2001350
+D1090510	Chutes - Linen & Refuse	5	-2001350
+D1090520	Chutes - Mail	5	-2001350
+D1090600	Turntables	4	-2001350
+D1090700	Baggage Handling & Loading Systems	4	-2001350
+D1090800	Transportation Systems	4	-2001350
+D20	Plumbing	2	
+D2010	Plumbing Fixtures	3	
+D2010100	Water Closets	4	-2001160
+D2010110	Water Closets - Single	5	-2001160
+D2010120	Water Closets - Group	5	-2001160
+D2010200	Urinals	4	-2001160
+D2010210	Urinals - Single	5	-2001160
+D2010220	Urinals - Battery Mount	5	-2001160
+D2010300	Lavatories	4	-2001160
+D2010310	Lavatories - Single	5	-2001160
+D2010320	Lavatories - Battery Mount	5	-2001160
+D2010400	Sinks	4	-2001160
+D2010410	Sinks - Kitchen	5	-2001160
+D2010420	Sinks - Laundry	5	-2001160
+D2010430	Sinks - Laboratory 	5	-2001160
+D2010440	Sinks - Service	5	-2001160
+D2010500	Bathtubs	4	-2001160
+D2010510	Bathtubs	5	-2001160
+D2010600	Wash Fountains	4	-2001160
+D2010610	Wash Fountains - Group	5	-2001160
+D2010700	Showers	4	-2001160
+D2010710	Showers	5	-2001160
+D2010800	Drinking Fountains & Coolers	4	-2001160
+D2010810	Drinking Fountains                                                 	5	-2001160
+D2010820	Water Coolers	5	-2001160
+D2010900	Other Plumbing Fixtures	4	-2001160
+D2010910	Bidets	5	-2001160
+D2020	Domestic Water Distribution	3	-2001160
+D2020100	Cold Water Service	4	-2001160
+D2020200	Hot Water Service	4	-2001160
+D2020300	Domestic Water Supply Equipment	4	-2001160
+D2030	Sanitary Waste	3	-2001160
+D2030100	Waste Piping	4	-2001160
+D2030200	Vent Piping	4	-2001160
+D2030300	Floor Drains	4	-2001160
+D2030400	Sanitary Waste Equipment	4	-2001160
+D2030500	Pipe Insulation	4	-2001160
+D2040	Rain Water Drainage	3	-2001160
+D2040100	Pipe & Fittings	4	-2001160
+D2040200	Roof Drains	4	-2001160
+D2040300	Rainwater Drainage Equipment	4	-2001160
+D2040400	Pipe Insulation	4	-2001160
+D2090	Other Plumbing Systems	3	-2001160
+D2090100	Gas Distribution	4	-2001160
+D2090200	Acid Waste Systems	4	-2001160
+D2090300	Interceptors	4	-2001160
+D2090400	Pool Piping & Equipment	4	-2001160
+D2090500	Decorative Fountain Piping & Devices	4	-2001160
+D2090600	Special Water Systems	4	-2001160
+D2090800	Piping & Fittings	4	-2001160
+D2090900	Misc. Other Plumbing Systems	4	-2001160
+D30	HVAC	2	
+D3010	Energy Supply	3	
+D3010100	Oil Supply System	4	-2001140
+D3010200	Gas Supply System	4	-2001140
+D3010300	Coal Supply System	4	-2001140
+D3010400	Steam Supply System	4	-2001140
+D3010500	Hot Water Supply System	4	-2001140
+D3010600	Chilled Water Supply System	4	-2001140
+D3010700	Solar Energy Systems	4	-2001140
+D3010800	Wind Energy System	4	-2001140
+D3010900	Fuel Cell Systems	4	-2001140
+D3020	Heat Generating Systems	3	-2001140
+D3020100	Boilers	4	-2001140
+D3020200	Boiler Room Piping & Specialties	4	-2001140
+D3020300	Auxiliary Equipment	4	-2001140
+D3020400	Insulation	4	-2001140
+D3030	Cooling Generating Systems	3	-2001140
+D3030100	Chilled Water Systems	4	-2001140
+D3030200	Direct Expansion Systems	4	-2001140
+D3030300	Other Cooling System Components	4	-2001140
+D3040	Distribution Systems	3	-2001140
+D3040100	Air Distribution Systems	4	-2001140
+D3040200	Exhaust Ventilation Systems	4	-2001140
+D3040300	Steam Distribution Systems	4	-2001140
+D3040400	Hot Water Distribution	4	-2001140
+D3040500	Chilled Water Distribution	4	-2001140
+D3040600	Change-over Distribution Systems	4	-2001140
+D3040700	Glycol Distribution Systems	4	-2001140
+D3050	Terminal & Package Units	3	-2001140
+D3050100	Terminal Self-Contained Units	4	-2001140
+D3050200	Package Units	4	-2001140
+D3060	Controls & Instrumentation	3	-2001140
+D3060100	Heating Generating Systems	4	-2001140
+D3060200	Cooling Generating Systems	4	-2001140
+D3060300	Heating/Cooling Air Handling Units	4	-2001140
+D3060400	Exhaust & Ventilating Systems	4	-2001140
+D3060500	Hoods & Exhaust Systems	4	-2001140
+D3060600	Terminal Devices	4	-2001140
+D3060700	Energy Monitoring & Control	4	-2001140
+D3060800	Building Automation Systems	4	-2001140
+D3070	Systems Testing & Balancing	3	-2001140
+D3070100	Piping System Testing & Balancing	4	-2001140
+D3070200	Air System Testing & Balancing	4	-2001140
+D3070300	HVAC Commissioning	4	-2001140
+D3070900	Other System Testing & Balancing	4	-2001140
+D3090	Other HVAC Systems/Equip	3	-2001140
+D3090100	Special Cooling Systems & Devices	4	-2001140
+D3090200	Special Humidity Control	4	-2001140
+D3090300	Dust & Fume Collectors	4	-2001140
+D3090400	Air Curtains	4	-2001140
+D3090500	Air Purifiers	4	-2001140
+D3090600	Paint Spray Booth Ventilation	4	-2001140
+D3090700	General Construction Items (HVAC)	4	-2001140
+D3090900	Misc. Other HVAC Systems & Equipment	4	-2001140
+D40	Fire Protection	2	
+D4010	Sprinklers	3	
+D4010100	Sprinkler Water Supply	4	-2001160
+D4010200	Sprinkler Pumping Equipment	4	-2001160
+D4010300	Wet Sprinkler Systems	4	-2001160
+D4010400	Dry Sprinkler Systems 	4	-2001160
+D4020	Standpipes	3	-2001160
+D4020100	Standpipe Water Supply	4	-2001160
+D4020200	Pumping Equipment	4	-2001160
+D4020300	Standpipe Equipment	4	-2001160
+D4020400	Fire Hose Equipment	4	-2001160
+D4030	Fire Protection Specialties	3	-2001160
+D4030100	Fire Extinguishers	4	-2001350
+D4030200	Fire Extinguisher Cabinets	4	-2001350
+D4030900	Other Fire Protection Specialties	4	-2001350
+D4090	Other Fire Protection Systems	3	-2001350
+D4090100	Carbon Dioxide Systems	4	-2001350
+D4090200	Foam Generating Equipment	4	-2001350
+D4090300	Clean Agent System	4	-2001350
+D4090400	Dry Chemical Systems	4	-2001350
+D4090500	Hood & Duct Fire Protection	4	-2001350
+D4090900	Misc. Other Fire Protection Systems	4	-2001350
+D50	Electrical	2	
+D5010	Electrical Service/Distribution	3	
+D5010100	High Tension Service & Distribution	4	-2001060
+D5010200	Low Tension Service & Distribution	4	-2001060
+D5020	Lighting and Branch Wiring	3	
+D5020100	Branch Wiring & Devices	4	
+D5020110	Receptacles - Wall                           	5	-2001060
+D5020115	Receptacles - Floor                                    	5	-2001060
+D5020120	Switches - Wall          	5	-2001060
+D5020200	Lighting Equipment	4	
+D5020210	Lighting - Fluorescent	5	-2001120
+D5020220	Lighting - Incandescent	5	-2001120
+D5020230	Lighting - High Intensity	5	-2001120
+D5020280	Light Poles	5	-2001120
+D5030	Communications and Security	3	
+D5030100	Public Address & Music Systems	4	-2001040
+D5030200	Intercommunication & Paging Systems	4	-2001040
+D5030300	Telephone Systems	4	-2001040
+D5030400	Call Systems	4	-2001040
+D5030500	Television Systems	4	-2001040
+D5030600	Data Networking	4	-2001040
+D5030700	Fire Alarm Systems	4	-2001040
+D5030800	Security & Detection Systems	4	-2001040
+D5030900	Other Communications & Security Systems	4	-2001040
+D5090	Other Electrical Systems	3	
+D5090100	Grounding Systems	4	-2001040
+D5090200	Emergency Light & Power Systems	4	-2001040
+D5090300	Floor Raceway Systems	4	-2001040
+D5090400	General Construction Items (Elect.)	4	-2001040
+D5090900	Misc. Other Electrical Systems	4	-2001040
+E	Equipment & Furnishings	1	
+E10	Equipment	2	
+E1010	Commercial Equipment	3	
+E1010100	Security & Vault Equipment	4	-2001350
+E1010110	Security Equipment	5	-2001350
+E1010120	Vault Equipment	5	-2001350
+E1010200	Teller & Service Equipment	4	-2001350
+E1010300	Registration Equipment	4	-2001350
+E1010400	Checkroom Equipment	4	-2001350
+E1010500	Mercantile Equipment	4	-2001350
+E1010510	Display Cases	5	-2001350
+E1010520	Checkout Counters	5	-2001350
+E1010600	Laundry & Dry Cleaning Equipment	4	-2001350
+E1010610	Laundry Equipment - Washers & Dryers	5	-2001350
+E1010620	Laundry Equipment - Ironers	5	-2001350
+E1010700	Vending Equipment	4	-2001350
+E1010800	Office Equipment	4	-2001350
+E1010900	Other Commercial Equipment	4	-2001350
+E1020	Institutional Equipment	3	
+E1020100	Ecclesiastical Equipment	4	-2001350
+E1020110	Ecclesiastical Equipment - Steeples & Bells	5	-2001350
+E1020120	Ecclesiastical Equipment - Baptismals & Fonts	5	-2001350
+E1020130	Ecclesiastical Equipment - Pews	5	-2000080
+E1020200	Library Equipment	4	-2001350
+E1020210	Library Equipment - Carrels	5	-2000080
+E1020230	Library Equipment - Shelves & Desks	5	-2000080
+E1020300	Theater & Stage Equipment	4	-2001350
+E1020310	Theater Equipment - Projection	5	-2001350
+E1020320	Theater Equipment - Lights & Tracks	5	-2001120
+E1020330	Theater Equipment - Curtains	5	-2001350
+E1020400	Instrumental Equipment	4	-2001350
+E1020500	Audio-visual Equipment	4	-2001350
+E1020600	Detention Equipment	4	-2001350
+E1020700	Laboratory Equipment	4	-2001350
+E1020710	Laboratory Equipment	5	-2001350
+E1020720	Laboratory Cabinets & Countertops	5	-2001350
+E1020730	Laboratory Hoods	5	-2001350
+E1020800	Medical Equipment	4	-2001350
+E1020810	Medical Furniture & Equipment	5	-2001350
+E1020820	X-ray Equipment	5	-2001350
+E1020900	Other Institutional Equipment	4	-2001350
+E1030	Vehicular Equipment	3	
+E1030100	Vehicular Service Equipment	4	-2001350
+E1030200	Parking Control Equipment	4	-2001350
+E1030300	Loading Dock Equipment	4	-2001350
+E1030900	Other Vehicular Equipment	4	-2001350
+E1090	Other Equipment	3	
+E1090100	Maintenance Equipment	4	-2001350
+E1090200	Solid Waste Handling Equipment	4	-2001350
+E1090300	Food Service Equipment	4	-2001350
+E1090310	Food Service - Cabinets & Countertops	5	-2001350
+E1090320	Food Service - Appliances & Equipment	5	-2001350
+E1090330	Food Service - Walk-in Refrigerators	5	-2001350
+E1090400	Residential Equipment	4	-2001350
+E1090500	Darkroom Equipment	4	-2001350
+E1090600	Window Washing Equipment	4	-2001350
+E1090900	Other Equipment	4	-2001350
+E20	Furnishings	2	
+E2010	Fixed Furnishings	3	
+E2010100	Fixed Artwork	4	-2000080
+E2010200	Fixed Casework	4	-2001000
+E2010300	Window Treatments	4	-2001350
+E2010310	Window Treatments - Blinds	5	-2001350
+E2010320	Window Treatments - Shades	5	-2001350
+E2010330	Window Treatments - Draperies	5	-2001350
+E2010400	Fixed Floor Grilles & Mats	4	-2001350
+E2010500	Fixed Multiple Seating	4	-2000080
+E2010600	Fixed Interior Landscaping	4	-2001360
+E2020	Moveable Furnishings	3	-2000080
+E2020100	Movable Artwork	4	-2000080
+E2020200	Furniture & Accessories	4	-2000080
+E2020300	Movable Rugs & Mats	4	-2000080
+E2020400	Movable Multiple Seating	4	-2000080
+E2020500	Movable Interior Landscaping	4	-2000080
+F	Special Construction & Demolition	1	
+F10	Special Construction	2	
+F1010	Special Structures	3	
+F1010100	Air Supported Structures	4	-2001320
+F1010200	Pre-engineered Structures	4	-2001320
+F1010300	Other Special Structures	4	-2001320
+F1020	Integrated Construction	3	
+F1020100	Integrated Assemblies	4	-2001350
+F1020200	Special Purpose Rooms	4	-2001350
+F1020300	Other Integrated Construction	4	-2001350
+F1030	Special Construction Systems	3	
+F1030100	"Sound, Vibration & Seismic Construction"	4	-2001350
+F1030200	Radiation Protection	4	-2001350
+F1030300	Special Security Systems	4	-2001350
+F1030400	Vaults	4	-2001350
+F1030900	Other Special Construction Systems	4	-2001350
+F1040	Special Facilities	3	
+F1040100	Aquatic Facilities	4	-2001350
+F1040200	Ice Rinks	4	-2001350
+F1040300	Site Constructed Incinerators	4	-2001350
+F1040400	Kennels & Animal Shelters	4	-2001350
+F1040500	Liquid & Gas Storage Tanks	4	-2001350
+F1040900	Other Special Facilities	4	-2001350
+F1050	Special Controls & Instrumentation	3	
+F1050100	Recording Instrumentation	4	-2001350
+F1050200	Building Automation Systems	4	-2001350
+F1050900	Other Special Control& Instrumentation	4	-2001350
+F20	Selective Building Demolition	2	
+F2010	Building Elements Demolition	3	
+F2010100	Building Interior Demolition	4	
+F2010200	Building Exterior Demolition	4	
+F2020	Hazardous Components Abatement	3	
+F2020100	Removal of Hazardous Components	4	-2001260
+F2020200	Encapsulation of Hazardous Components	4	-2001260
+G	Building Sitework	1	
+G10	Site Preparation	2	
+G1010	Site Clearing	3	
+G1010100	Clearing & Grubbing	4	-2001260
+G1010200	Tree Removal & Thinning	4	-2001260
+G1020	Site Demolition and Relocations	3	
+G1020100	Building Demolition	4	-2001260
+G1020200	Demolition of Site Components	4	-2001260
+G1020300	Relocation of Buildings	4	-2001260
+G1020400	Utilities Relocation	4	-2001260
+G1030	Site Earthwork	3	
+G1030100	Site Grading Excavation & Disposal	4	-2001340
+G1030200	Borrow Fill	4	-2001340
+G1030300	Soil Stabilization & Treatment	4	-2001340
+G1030400	Site Dewatering	4	-2001340
+G1030500	Site Shoring	4	-2001340
+G1030600	Embankments	4	-2001340
+G1030700	Erosion Control	4	-2001340
+G1030800	Utilities Trenching	4	-2001340
+G1040	Hazardous Waste Remediation	3	
+G1040100	Removal of Contaminated Soil	4	-2001260
+G1040200	Soil Restoration & Treatment	4	-2001260
+G1040900	Other Hazardous Waste Remediation	4	-2001260
+G20	Site Improvement	2	
+G2010	Roadways	3	
+G2010100	Roadway Bases & Sub-Bases	4	-2001220
+G2010200	Roadway Paving & Surfacing	4	-2001220
+G2010300	"Curbs, Gutters & Drains"	4	-2001220
+G2010400	Guardrails & Barriers	4	-2001220
+G2010500	Painted Lines & Markings	4	-2001220
+G2010600	Signage	4	-2001220
+G2010700	Vehicular Bridges	4	-2001220
+G2020	Parking Lots	3	
+G2020100	Parking Lot Bases & Sub-Bases	4	-2001180
+G2020200	Parking Lot Paving & Surfacing	4	-2001180
+G2020300	"Curbs, Gutters & Drains"	4	-2001180
+G2020400	Guardrails & Barriers	4	-2001180
+G2020500	Parking Booths & Equipment	4	-2001180
+G2020600	Painted Lines & Markings	4	-2001180
+G2020700	Signage	4	-2001180
+G2030	Pedestrian Paving	3	
+G2030100	Bases & Sub-Bases	4	-2001260
+G2030200	Sidewalks	4	-2001260
+G2030300	Brick & Tile Plazas	4	-2001260
+G2030400	Edging	4	-2001260
+G2030500	Exterior Steps & Ramps	4	-2001260
+G2030600	Pedestrian Bridges	4	-2001260
+G2040	Site Development	3	
+G2040100	Fences & Gates	4	-2001260
+G2040200	Retaining Walls	4	-2001260
+G2040300	Terracing & Perimeter Walls	4	-2001260
+G2040400	Signage	4	-2001260
+G2040500	Site Furnishings	4	-2001260
+G2040600	"Fountains, Pools & Watercourses"	4	-2001260
+G2040700	Playing Fields	4	-2001260
+G2040800	Flagpoles	4	-2001260
+G2040900	Other Site Development	4	-2001260
+G2050	Landscaping	3	
+G2050100	Fine Grading & Soil Preparation	4	-2001360
+G2050200	Erosion Control Measures	4	-2001360
+G2050300	Vehicular Bridges	4	-2001360
+G2050400	Seeding & Sodding	4	-2001360
+G2050500	Planting	4	-2001360
+G2050600	Planters	4	-2001360
+G2050700	Irrigation Systems	4	-2001360
+G2050900	Other Landscape Features	4	-2001360
+G30	Site Mechanical Utilities	2	
+G3010	Water Supply	3	
+G3010100	Potable Water Distribution & Storage	4	-2001260
+G3010200	Non Potable Water Distribution & Storage	4	-2001260
+G3010300	Well Systems	4	-2001260
+G3010400	Fire Protection Distribution & Storage	4	-2001260
+G3010500	Pumping Stations	4	-2001260
+G3010600	Package Water Treatment Plants	4	-2001260
+G3020	Sanitary Sewer	3	
+G3020100	Sewage Piping	4	-2001260
+G3020200	Manholes & Cleanouts	4	-2001260
+G3020300	Septic Disposal Systems	4	-2001260
+G3020400	Lift Stations	4	-2001260
+G3020500	Packaged Water Waste Treatment Plants	4	-2001260
+G3030	Storm Sewer	3	
+G3030100	Storm Sewer Piping	4	-2001260
+G3030200	Manholes	4	-2001260
+G3030300	Headwalls & Catch Basins	4	-2001260
+G3030400	Lift Stations	4	-2001260
+G3030500	Retention Ponds	4	-2001260
+G3030600	Ditches & Culverts	4	-2001260
+G3040	Heating Distribution	3	
+G3040100	Steam Supply	4	-2001260
+G3040200	Condensate Return	4	-2001260
+G3040300	Hot Water Supply System	4	-2001260
+G3040400	Pumping Stations	4	-2001260
+G3050	Cooling Distribution	3	
+G3050100	Chilled Water Piping	4	-2001260
+G3050200	Wells for Cooling/Heating	4	-2001260
+G3050300	Pumping Stations	4	-2001260
+G3050400	Cooling Towers on Site	4	-2001260
+G3060	Fuel Distribution	3	
+G3060100	Fuel Piping	4	-2001260
+G3060200	Fuel Equipment	4	-2001260
+G3060300	Fuel Storage Tanks	4	-2001260
+G3060400	Fuel Dispensing Stations	4	-2001260
+G3090	Other Site Mechanical Utilities	3	
+G3090100	Industrial Waste Systems	4	-2001260
+G3090200	POL Distribution Systems  	4	-2001260
+G40	Site Electrical Utilities	2	
+G4010	Electrical Distribution	3	
+G4010100	Substations	4	-2001260
+G4010200	Overhead Power Distribution	4	-2001260
+G4010300	Underground Power Distribution	4	-2001260
+G4020	Site Lighting	3	
+G4020100	Site Fixtures & Transformers	4	-2001260
+G4020200	Site Lighting Poles	4	-2001260
+G4020300	Wiring Conduits & Ductbanks	4	-2001260
+G4020400	Site Lighting Controls	4	-2001260
+G4030	Site Communication and Security	3	
+G4030100	Site Communications Systems	4	-2001260
+G4030200	Site Security & Alarm Systems	4	-2001260
+G4040	Other Site Electrical Utilities	3	
+G4040100	Cathodic Protection	4	-2001260
+G4040200	Site Emergency Power Generation	4	-2001260
+G90	Other Site Construction	2	
+G9010	Service and Pedestrian Tunnels	3	
+G9010100	Service Tunnels	4	-2001260
+G9010200	Trench Boxes	4	-2001260
+G9010300	Pedestrian Tunnels	4	-2001260
+G9090	Other Site Systems/Equipment	3	
+G9090100	Snow Melting Systems	4	-2001260

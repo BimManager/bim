@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>MiracadUIRibbonSelectorAll</Name>
+    <Assembly>Miracad.dll</Assembly>
+    <AddInId>01E2284E-EE49-4E16-A18A-85733D209717</AddInId>
+    <FullClassName>Miracad.UIRibbonSelectorAll</FullClassName>
+    <VendorId>Miracad</VendorId>
+    <VendorDescription>Обратитесь к разработчику: http://www.revitbim.ru</VendorDescription>
+  </AddIn>
+</RevitAddIns>
